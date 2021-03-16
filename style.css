@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(215, 226, 215);
+}
+
+.container {
+    margin: 200px auto;
+    width: 600px;
+    height: 450px;
+    box-sizing: border-box;
+}
+
+#img {
+    box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%), 0 8px 16px -8px hsl(0deg 0% 0% / 30%), 0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
+    border-radius: 8px;
+    border: 1.5px solid black;
+    transition: .4s;
+    box-sizing: border-box;
+    width: 600px;
+    height: 450px;
+}
+
+#img:hover {
+    border: 1.5px solid rgb(0, 255, 0);
+}
+
+.btn {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.btn1, .btn2, .btn3:hover {cursor: pointer;}
